@@ -1,0 +1,113 @@
+/* 폰트 */
+@font-face {
+    font-family: 'HakgyoansimBareondotumB';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimBareondotumB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HakgyoansimSantteutdotumL';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimSantteutdotumL.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* 공통 스타일 */
+html{background-color: white;}
+body{background-color: white; width: 1440px; margin: 0 auto; padding: 0; font-family: 'HakgyoansimSantteutdotumL'; overflow-x: hidden;}
+hr{clear: both; margin: 0; padding: 0;}
+a{text-decoration: none; color: black;}
+
+h4{margin: 0; color: #000077; font-size: 26px; font-weight: bold; font-family: 'GmarketSansMedium';}
+h5{margin: 0; font-size: 15px;}
+h6{margin: 0; color: gray; font-size: 14px; font-weight: 100;}
+
+
+/* header 상단 */
+header{position: fixed; z-index: 999;}
+.h_wrap > img{position: absolute; left: -238px; top: 0; z-index: -1;}
+.h_wrap{
+    background-color: white; width: 1440px; height: 150px;
+    position: relative;
+    div{box-sizing: border-box;}
+}
+#h_lang{
+    width: 360px; height: 35%;
+    position: absolute; left: 0; top: 0;
+    display: flex; justify-content: left; gap: 5px;
+    div{margin-right: 20px; padding-top: 31px; display: inline-block;}
+    a > img{padding-top: 25px; width: 28px;}
+}
+#h_in{
+    width: 360px; height: 35%;
+    position: absolute; right: 0; top: 0;
+    text-align: right;
+    a{color: gray;}
+    h6{display: inline-block; margin: 0; padding-left: 30px; line-height: 80px;}
+}
+#h_logo{
+    width: 360px; height: 65%;
+    position: absolute; left: 0; bottom: 0;
+    img{padding-top: 2px;}
+}
+nav{
+    width: 75%; height: 65%;
+    position: absolute; right: 0; bottom: 0;
+    box-sizing: border-box;
+    ul{margin: 0; padding: 0; display: flex; justify-content: left; gap: 80px;}
+    li{margin: 0; padding: 40px 0; list-style: none; font-size: 18px;}
+}
+
+
+/* footer 하단 */
+footer{
+    clear: both;
+}
+.f_wrap{
+    height: 200px; background-color: #131313; padding-bottom: 100px; color: lightgray;
+    position: relative;
+    div{box-sizing: border-box;}
+}
+.f_wrap > img{position: absolute; top: 0; left: -240px;}
+#f_logo{
+    width: 360px; height: 60px;
+    position: absolute; left: 0; top: 60px;
+}
+#f_copyright{
+    width: 720px; height: 60px;
+    position: absolute; left: 0; top: 120px; 
+    p{margin: 0; color: gray; line-height: 120%;}
+}
+#f_cs{
+    width: 360px; height: 120px; color: gray;
+    position: absolute; right: 360px; top: 120px;
+    p{margin: 0;}
+}
+#f_cs1{
+    font-size: 30px;
+}
+#f_cs2{
+    margin-top: 20px; text-align: center;
+    > a{width: 350px; height: 30px; border: 2px solid gray; border-radius: 30px;
+        color: gray; padding: 5px 30px; transition: all 0.5s ease;}
+    > a:hover{background-color: white; color: black; border: 2px solid white;}
+}
+#f_email{
+    width: 720px; height: 60px;
+    position: absolute; right: 0; top: 60px;
+    ul{margin: 0; padding: 0; list-style: none; text-align: right;}
+    li{margin-left: 20px; display: inline-block; text-align: right;}
+    li a{color: gray;}
+}
+#f_familly{
+    width: 360px; height: 60px;
+    position: absolute; right: 0; top: 120px;
+    text-align: right;
+}
