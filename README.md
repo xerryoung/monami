@@ -16,7 +16,7 @@
 ```
 <br>
 
-## 기술스택
+## 기술 스택
 - html5 : 시맨틱 마크업
 - css3 : position, flex, 애니메이트
 <br><br>
