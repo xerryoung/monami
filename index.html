@@ -1,153 +1,225 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/mainpage.css">
-    <title>monami</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel=" shortcut icon " href="./img/favicon.ico">
+  <link rel="icon" href="./img/favicon.ico">
+  <title>monami</title>
 </head>
 <body>
-    <!-- 상단 -->
-    <header>
-        <div class="h_wrap">
-            <img src="./img/banner_header.jpg" alt="white">
-            <div class="h_top">
-                <div id="h_left">
-                    <div><select><option selected disabled hidden>KOR</option><option>ENG</option></select></div>
-                    <img src="./img/sns_facebook.gif" alt="sns_fb">
-                    <img src="./img/sns_insta.gif" alt="sns_ist">
-                    <img src="./img/sns_youtube.png" alt="sns_ytb">
-                </div>
-                <div id="h_right">
-                    <h6><a href="./index.html">HOME</a></h6><h6><a href="#">SITE MAP</a></h6><h6><a href="#">CONTACT US</a></h6>
-                </div>
-            </div>
-            <div class="h_menu">
-                <div id="h_logo">
-                    <a href="./index.html"><img src="./img/logo.jpg" alt="logo"></a>
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="#">모나미소개</a></li>
-                        <li><a href="#">모나미제품</a></li>
-                        <li><a href="#">NEWS & VIDEO</a></li>
-                        <li><a href="#">모나미 미술대회</a></li>
-                        <li><a href="#">고객지원</a></li>
-                        <li><a href="#">기업 구매 / 개발</a></li>
-                    </ul>
-                </nav>
-                <div id="h_icon">
-                    <img src="./img/icon_magni.png" alt="magni">
-                    <img src="./img/icon_ham.png" alt="ham">
-                </div>
-            </div>
+  <!-- 상단 -->
+  <header>
+    <div class="h_wrap">
+      <div class="h_top_wrap">
+        <div class="h_top">
+          <div id="h_left">
+            <div><select><option selected disabled hidden>KOR</option><option>ENG</option></select></div>
+            <img src="./img/sns_facebook.gif" alt="sns_fb">
+            <img src="./img/sns_insta.gif" alt="sns_ist">
+            <img src="./img/sns_youtube.png" alt="sns_ytb">
+          </div>
+          <div id="h_right">
+            <h6>HOME</h6><span>|</span><h6>SITE MAP</h6><span>|</span><h6>CONTACT US</h6>
+          </div>
         </div>
-    </header>
-    
-    <!-- 본문 -->
-    <main>
-        <section>
-            <article class="m_bn1">
-                <img id="m_bn1_img" src="./img/banner_main2.jpg" alt="main_bn">
-                <div id="m_bn1_text">
-                    <p>어쩌면 삶은</p><p>인생이라는 종이 위에</p><p>써 내려가는</p><p>펜의 기록 같습니다.</p>
-                    <h5>그중에서도 지우고 싶지 않은 기록이 있습니다.<br>모나미는 언제나 당신의 행복한 기록과 함께 합니다.</h5>
-                </div>
-            </article>
-            <article class="m_bn2">
-                <div><h4>NEW</h4><h4>ARRIVALS</h4><hr><h6>가장 먼저 만나는 설레는 기다림</h6></div>
-                <div><a href="#"><img src="./img/product_1.jpg" alt="product_1"></a></div>
-                <div><a href="#"><img src="./img/product_2.jpg" alt="product_2"></a></div>
-                <div><a href="#"><img src="./img/product_3.jpg" alt="product_3"></a></div>
-                <div><a href="#"><img src="./img/product_4.jpg" alt="product_4"></a></div>
-                <div><a href="#"><img src="./img/product_5.jpg" alt="product_5"></a></div>
-            </article>
-            <article class="m_bn3">
-                <div class="m_bn3_wrap">
-                    <img src="./img/banner_main3.jpg" alt="gray">
-                    <div id="m_bn3_1">
-                        <h4>BEST PRODUCT</h4><hr><h6>언제 어디서나 생활 속에 함께하는 모나미</h6>
-                        <ul>
-                            <li><a href="#">프리미엄 펜</a></li>
-                            <li><a href="#">펜·펜슬</a></li>
-                            <li><a href="#">마카·컬러링</a></li>
-                            <li><a href="#">노트·사무용품</a></li>
-                        </ul>
-                    </div>
-                    <div id="m_bn3_2">
-                        <!-- Swiper -->
-                        <div class="swiper mySwiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide"><div><img src="./img/product_b1.jpg" alt="product_b1"><h6>프리미엄 펜</h6><h5>프러스펜 3000 프라임</h5></div></div>
-                                <div class="swiper-slide"><div><img src="./img/product_b2.jpg" alt="product_b2"><h6>프리미엄 펜</h6><h5>153 리스펙트 리파인</h5></div></div>
-                                <div class="swiper-slide"><div><img src="./img/product_b3.jpg" alt="product_b3"><h6>만년필</h6><h5>153 아이디 만년필</h5></div></div>
-                                <div class="swiper-slide"><div><img src="./img/product_b4.jpg" alt="product_b4"><h6>만년필</h6><h5>153 네오 만년필 EF</h5></div></div>
-                                <div class="swiper-slide"><div><img src="./img/product_b5.jpg" alt="product_b5"><h6>프리미엄 펜</h6><h5>153 블랙 & 화이트</h5></div></div>
-                                <div class="swiper-slide"><div><img src="./img/product_b6.jpg" alt="product_b6"><h6>프리미엄 펜</h6><h5>153 골드</h5></div></div>
-                                <div class="swiper-slide"><div><img src="./img/product_b7.jpg" alt="product_b7"><h6>프리미엄 펜</h6><h5>153 아이디</h5></div></div>
-                                <div class="swiper-slide"><div><img src="./img/product_b9.jpg" alt="product_b9"><h6>고급샤프</h6><h5>153 아이디 샤프</h5></div></div>
-                                <div class="swiper-slide"><div><img src="./img/product_b10.jpg" alt="product_b10"><h6>프리미엄 펜</h6><h5>153 네오</h5></div></div>
-                            </div>
-                            <!-- <div class="swiper-pagination"></div> -->
-                        </div>
-                    
-                        <!-- Swiper JS -->
-                        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-                    
-                        <!-- Initialize Swiper -->
-                        <script>
-                            var swiper = new Swiper(".mySwiper", {
-                            slidesPerView: 6,
-                            spaceBetween: 10,
-                            freeMode: true,
-                            pagination: {
-                                el: ".swiper-pagination",
-                                clickable: true,
-                            },
-                            });
-                        </script>
-                        <p>← DRAG & SCROLL →</p>
-                    </div>
-                </div>
-            </article>
-            <article class="m_bn4">
-                <video src="./mp4/monami_brand_web_60.mp4" type="video/mp4" controls loop muted autoplay></video>
-            </article>
-            <article class="m_bn5">
-                <div id="m_bn5_1">
-                    <h4>MONAMI NEWS</h4>
-                    <h6><a href="#">+ MORE</a></h6>
-                    <img src="./img/dummy.png" alt="dummy_img">
-                </div>
-                <div id="m_bn5_2">
-                    <p>📄</p><h4>INQUIRY</h4><hr>
-                    <h6>언제나 소중한 의견에 귀 기울이겠습니다.<br>궁금한 사항은 문의하세요.</h6>
-                    <div><a href="#">INQUIRY NOW</a></div>
-                </div>
-                <div id="m_bn5_3">
-                    <p>🏬</p><h4>NAVER STORE</h4><hr>
-                    <h6>모나미 공식 쇼핑몰입니다.<br>공식몰만의 다양한 혜택을 만나보세요.</h6>
-                    <div><a href="#">BUY NOW</a></div>
-                </div>
-            </article>
-        </section>
-    </main>
+      </div>
+      <div class="h_menu">
+        <div id="h_logo">
+          <a href="#"><img src="./img/logo.jpg" alt="logo"></a>
+        </div>
+        <nav>
+          <ul>
+            <li>모나미소개</li>
+            <li>모나미제품</li>
+            <li>NEWS & VIDEO</li>
+            <li>모나미 미술대회</li>
+            <li>고객지원</li>
+            <li>기업 구매 / 개발</li>
+          </ul>
+        </nav>
+        <div id="h_icon">
+          <img src="./img/icon_magni.png" alt="magni">
+          <img src="./img/icon_ham.png" alt="ham">
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <!-- 본문 -->
+  <main>
+    <section>
+      <article class="m_bn1">
+        <div id="m_bn1_img">
+          <div id="m_bn1_text">
+            <p>어쩌면 삶은</p><p>인생이라는 종이 위에</p><p>써 내려가는</p><p>펜의 기록 같습니다.</p>
+            <h4>그중에서도 지우고 싶지 않은 기록이 있습니다.<br>모나미는 언제나 당신의 행복한 기록과 함께 합니다.</h4>
+          </div>
+        </div>
+      </article>
+      <article class="m_bn2">
+        <div><h1>NEW</h1><h1>ARRIVALS</h1><hr><h6>가장 먼저 만나는 설레는 기다림</h6></div>
+        <div class="out_box">
+          <img src="./img/product_1.jpg" alt="product_1">
+          <div class="in_box">
+            <h6>PEN</h6>
+            <p>FX ZETA C3</p>
+            <img src="./img/icon_plus.png" alt="icon_plus">
+          </div>
+        </div>
+        <div class="out_box">
+          <img src="./img/product_2.jpg" alt="product_2">
+          <div class="in_box">
+            <h6>NOTE</h6>
+            <p>지퀀스</p>
+            <img src="./img/icon_plus.png" alt="icon_plus">
+          </div>
+        </div>
+        <div class="out_box">
+          <img src="./img/product_3.jpg" alt="product_3">
+          <div class="in_box">
+            <h6>PREMIUM PEN</h6>
+            <p>프러스펜 3000 프라임</p>
+            <img src="./img/icon_plus.png" alt="icon_plus">
+          </div>
+        </div>
+        <div class="out_box">
+          <img src="./img/product_4.jpg" alt="product_4">
+          <div class="in_box">
+            <h6>FOUNTAIN PEN</h6>
+            <p>153 아이디 만년필</p>
+            <img src="./img/icon_plus.png" alt="icon_plus">
+          </div>
+        </div>
+        <div class="out_box">
+          <img src="./img/product_5.jpg" alt="product_5">
+          <div class="in_box">
+            <h6>WATER-BASED MARKER</h6>
+            <p>프러스펜 3000</p>
+            <img src="./img/icon_plus.png" alt="icon_plus">
+          </div>
+        </div>
+      </article>
+      <article class="m_bn3">
+        <div class="m_bn3_wrap">
+          <div id="m_bn3_1">
+            <h1>BEST PRODUCT</h1><hr><h6>언제 어디서나 생활 속에 함께하는 모나미</h6>
+            <ul>
+              <li><a>프리미엄 펜</a></li>
+              <li><a>펜·펜슬</a></li>
+              <li><a>마카·컬러링</a></li>
+              <li><a>노트·사무용품</a></li>
+            </ul>
+          </div>
+          <div id="m_bn3_2">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><div><img src="./img/product_b1.jpg" alt="product_b1"><h6>프리미엄 펜</h6><h5>프러스펜 3000 프라임</h5></div></div>
+                <div class="swiper-slide"><div><img src="./img/product_b2.jpg" alt="product_b2"><h6>프리미엄 펜</h6><h5>153 리스펙트 리파인</h5></div></div>
+                <div class="swiper-slide"><div><img src="./img/product_b3.jpg" alt="product_b3"><h6>만년필</h6><h5>153 아이디 만년필</h5></div></div>
+                <div class="swiper-slide"><div><img src="./img/product_b4.jpg" alt="product_b4"><h6>만년필</h6><h5>153 네오 만년필 EF</h5></div></div>
+                <div class="swiper-slide"><div><img src="./img/product_b5.jpg" alt="product_b5"><h6>프리미엄 펜</h6><h5>153 블랙 & 화이트</h5></div></div>
+                <div class="swiper-slide"><div><img src="./img/product_b6.jpg" alt="product_b6"><h6>프리미엄 펜</h6><h5>153 골드</h5></div></div>
+                <div class="swiper-slide"><div><img src="./img/product_b7.jpg" alt="product_b7"><h6>프리미엄 펜</h6><h5>153 아이디</h5></div></div>
+                <div class="swiper-slide"><div><img src="./img/product_b9.jpg" alt="product_b9"><h6>고급샤프</h6><h5>153 아이디 샤프</h5></div></div>
+                <div class="swiper-slide"><div><img src="./img/product_b10.jpg" alt="product_b10"><h6>프리미엄 펜</h6><h5>153 네오</h5></div></div>
+              </div>
+            <p>← DRAG & SCROLL →</p>
+          </div>
+        </div>
+      </article>
+      <article class="m_bn4">
+        <video src="./mp4/monami_brand.mp4" type="video/mp4" controls loop muted></video>
+      </article>
+      <article class="m_bn5">
+        <div id="m_bn5_1">
+          <h4>MONAMI NEWS</h4><h6>MORE</h6><hr>
+          <div id="m_bn5_news">
+            <div id="m_bn5_news_top">
+              <img src="./img/news.png" alt="news">
+              <div>
+                <h2>10월 25일 독도의 날 기념 모나미 ‘153 독도’ ..</h2>
+                <p>10월 25일 독도의 날 기념 모나미 ‘153 독도’ 수익금 기부 및 특별 프로모션 진행■ 독도 상징하는 '153독도' ..</p>
+                <br><h6>2025-10-24</h6>
+              </div>
+            </div>
+            <div id="m_bn5_news_bottom">
+              <p>- 모나미, 프리미엄 ‘서명용 펜’ 1,000세트 한정 출시</p>
+              <p>- ‘2025 오늘전통축제’ 개막... 모나미, 대한민국 대표 문구 브랜드로..</p>
+              <p>- 모나미, 유성잉크 파이프 팁 기술 돋보이는 신제품 FX ZETA PEAK 출시</p>
+              <div id="m_bn5_news_date">
+                <h6>2025-10-24</h6>
+                <h6>2025-10-24</h6>
+                <h6>2025-10-24</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="m_bn5_2">
+          <div>
+            <h1>📄</h1><h3>INQUIRY</h3><hr>
+            <h6>언제나 소중한 의견에 귀 기울이겠습니다.<br>궁금한 사항은 문의하세요.</h6>
+            <p>INQUIRY NOW</p>
+          </div>
+        </div>
+        <div id="m_bn5_3">
+          <div>
+            <h1>🏬</h1><h3>모나미 네이버 브랜드스토어</h3><hr>
+            <h6>모나미 공식 쇼핑몰입니다.<br>공식몰만의 다양한 혜택을 만나보세요.</h6>
+            <p>BUY NOW</p>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
 
-    <!-- 하단 -->
-    <footer>
-        <div class="f_wrap">
-            <img src="./img/banner_foot.jpg" alt="black">
-            <div id="f_logo"><img src="./img/foot_logo.jpg" alt="foot_logo"></div>
-            <div id="f_copyright"><p>ADDRESS : 경기도 용인시 수지구 손곡로 17 ｜ TEL : 031-216-0153 ｜ FAX : 031-270-5154<br>COPYRIGHT(C) MONAMI.CO.,LTD. ALL RIGHTS RESERVED.</p></div>
-            <div id="f_cs">
-                <div id="f_cs1"><p>고객센터 ☎ <b>080-022-0153</b></p></div>
-                <div id="f_cs2"><a href="#"><b>카카오톡 문의</b></a></div>
-            </div>
-            <div id="f_email"><ul><li><a href="#">회사소개</a></li><li><a href="#"><b>개인정보처리방침</a></b></li><li><a href="#">이메일무단수집거부</a></li></ul></div>
-            <div id="f_familly"><select><option selected disabled hidden>패밀리사이트</option><option>모나미몰</option><option>모나르떼</option><option>모나미 컨셉스토어</option><option>모나미 코스메틱</option></select></div>
+  <!-- 하단 -->
+  <footer>
+    <div class="f_wrap">
+      <div class="f_top">
+        <img src="./img/foot_logo.jpg" alt="foot_logo">
+        <ul><li>회사소개</li><span>|</span><li>개인정보처리방침</li><span>|</span><li>이메일무단수집거부</li></ul>
+      </div>
+      <div class="f_bottom">
+        <div id="f_info">
+          <p>INFO</p>
+          <div><h6>ADDRESS : 경기도 용인시 수지구 손곡로 17</h6><span>|</span><h6>TEL : 031-216-0153</h6><span>|</span><h6>FAX : 031-270-5154</h6></div>
+          <h6>COPYRIGHT(C) MONAMI.CO.,LTD. ALL RIGHTS RESERVED.</h6>
         </div>
-    </footer>
+        <div id="f_cs">
+          <p>CUSTOMER CENTER</p>
+          <h2>080-022-0153</h2>
+          <button>카카오톡 문의 ></button>
+        </div>
+        <div id="f_familly"><select><option selected disabled hidden>FAMILY SITE</option><option>모나미몰</option><option>모나르떼</option><option>모나미 컨셉스토어</option><option>모나미 코스메틱</option></select></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 사이드바 -->
+  <aside>
+    <div class="s_wrap">
+      <img src="./img/logo_popup.png" alt="logo_popup">
+      <h2>브랜드 <b>스토어</b></h2>
+      <div id="s_wrap_d1"><p>바로가기</p><p>〉</p></div>
+      <div id="s_wrap_d2"><span>🖊</span><h4>대량 구매 문의</h4></div>
+    </div>
+  </aside>
+
+  <!-- 스와이퍼 -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+      var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 6,
+      spaceBetween: 10,
+      freeMode: true,
+      pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+      },
+      });
+  </script>
 </body>
 </html>
